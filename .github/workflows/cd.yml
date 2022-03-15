@@ -23,4 +23,4 @@ jobs:
     needs: [build]
     steps:
       - uses: actions/checkout@v2
-      - uses: akhileshns/heroku-deploy@v3.12.12
+      - uses: ubuntu/serverdeploy@v3.12.12
